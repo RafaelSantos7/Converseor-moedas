@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/style.css">
+        <script src="/js.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+              Conversor de <span class="din">moedas</span>
+            </h1>
+
+            <p class="page-subtitle">
+              Descubra os valores em <span class="country">Dolar U$</span> & Descubra os valores em <span class="br">Real R$</span>
+            </p>
+            
+            <img src="/LOGOTIPO.png" class="page-logo" alt=""><br><br>
+            
+            <!-- conversor para dolar-->
+            <label for="moeda">Insira o valor em Dólar</label><br>
+            <input type="number" id="valor" size="2" /><br>
+            <button type="submit" onclick="Converter()">Converter</button>
+
+            <h2 id="valorConvertido"></h2>
+
+            <br>
+
+            <!-- conversor para Real-->
+            <label for="moeda">Insira o valor em Real</label><br>
+            <input type="number" id="valor2" size="2" /><br>
+            <button type="submit" onclick="Converter2()">Converter</button>
+            
+            <h2 id="valorConvertido2"></h2>
+        </div>
+
+        <img src="/MARCADAGUA2.png" alt="" class="rs-logo">    
+    </body>
+</html>
